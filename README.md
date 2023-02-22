@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```python
 from stsriskcalc import STSRiskCalc
 
-calc = STSRiskCalc({...payload...})
+calc = STSRiskCalc({"age": 50, "heightcm": 180, ...payload...})
 calc.calc_risks() # {'predmort': 0.01729, 'predmm': ...}
 
 calc.set_payload({...new payload...})

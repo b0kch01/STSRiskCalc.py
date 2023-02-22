@@ -1,6 +1,6 @@
 from stsriskcalc import STSRiskCalc
 
-o = {
+all_fields = {
     "age": 50,
     "gender": "",
     "raceasian": "",
@@ -103,15 +103,18 @@ o = {
     "procid": "8"
 }
 
-needed = []
-for skip_key in o.keys():
+required_keys = []
+optional_keys = []
+
+for skip_key in all_fields.keys():
     try:
-        STSRiskCalc({key: value for key, value in o.items()
-                     if key != skip_key}).calc_risks()
+        one_missing_payload = {key: all_fields[key]
+                               for key in all_fields if key != skip_key}
+        STSRiskCalc(one_missing_payload).calc_risks()
+        optional_keys.append(skip_key)
     except Exception as e:
         print(e, skip_key)
-        needed.append(skip_key)
+        required_keys.append(skip_key)
 
-print(needed)
-print(len(needed))
-print(set(o.keys()).difference(set(needed)))
+print("REQUIRED", required_keys)
+print("OPTIONAL", optional_keys)

@@ -25,6 +25,9 @@ calc.calc_risks() # {'predmort': 0.02469, 'predmm': ...}
 calc.calc_risk({}) # Will raise HTTP error...
 ```
 
+## Example
+See [one_missing_payload.py](one_missing_payload.py) for an example of this library being used.
+
 # Required Fields
 ```
 age

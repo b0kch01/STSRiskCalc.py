@@ -36,6 +36,7 @@ If you'd like to learn more about these fields,
 [refer to this file](https://github.com/b0kch01/STS-Risk-Calculator-Source-Dump/blob/618b9635a3140a61302cb7aab7d8f6a9b3596530/fields.ts).
 
 ## Required Fields
+These fields must be present in the payload, even if they are just empty strings (`""`)!
 ```
 age
 weightkg
@@ -48,6 +49,32 @@ medadpidis
 hdef
 calculatedbmi
 procid
+```
+
+### Value-required Fields
+These fields must be present in the payload **AND** have values:
+
+```
+age
+procid
+```
+
+
+Therefore, this is the minimum valid payload:
+```json
+{
+"age": 50,
+"procid": "1",
+"weightkg": "",
+"heightcm": "",
+"hct": "",
+"wbc": "",
+"platelets": "",
+"creatlst": "",
+"medadpidis": "",
+"hdef": "",
+"calculatedbmi": ""
+}
 ```
 
 ## Optional Fields

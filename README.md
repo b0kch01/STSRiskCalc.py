@@ -63,17 +63,17 @@ procid
 Therefore, this is the minimum valid payload:
 ```json
 {
-"age": 50,
-"procid": "1",
-"weightkg": "",
-"heightcm": "",
-"hct": "",
-"wbc": "",
-"platelets": "",
-"creatlst": "",
-"medadpidis": "",
-"hdef": "",
-"calculatedbmi": ""
+  "age": 50,
+  "procid": "1",
+  "weightkg": "",
+  "heightcm": "",
+  "hct": "",
+  "wbc": "",
+  "platelets": "",
+  "creatlst": "",
+  "medadpidis": "",
+  "hdef": "",
+  "calculatedbmi": ""
 }
 ```
 

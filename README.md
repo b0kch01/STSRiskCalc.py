@@ -30,7 +30,10 @@ See [one_missing_payload.py](https://github.com/b0kch01/STSRiskCalc.py/blob/main
 
 # Payload (light) Documentation
 
-NOT OFFICIAL! These notes are based off of observation.
+**NOT OFFICIAL!** These notes are based off of observation.
+
+If you'd like to learn more about these fields,
+[refer to this file](https://github.com/b0kch01/STS-Risk-Calculator-Source-Dump/blob/618b9635a3140a61302cb7aab7d8f6a9b3596530/fields.ts).
 
 ## Required Fields
 ```

@@ -26,7 +26,7 @@ calc.calc_risk({}) # Will raise HTTP error...
 ```
 
 ## Example
-See [one_missing_payload.py](https://github.com/b0kch01/STSRiskCalc.py/blob/main/find_optional_fields.py) for an example of this library being used.
+See [find_optional_fields.py](https://github.com/b0kch01/STSRiskCalc.py/blob/main/find_optional_fields.py) for an example of this library being used.
 
 # Payload (light) Documentation
 

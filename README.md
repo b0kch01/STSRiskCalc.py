@@ -32,7 +32,7 @@ See [find_optional_fields.py](https://github.com/b0kch01/STSRiskCalc.py/blob/mai
 
 **NOT OFFICIAL!** These notes are based off of observation.
 
-If you'd like to learn more about these fields,
+If you'd like to learn about the exact properties about these fields (for example value formatting, and min/max values),
 [refer to this file](https://github.com/b0kch01/STS-Risk-Calculator-Source-Dump/blob/618b9635a3140a61302cb7aab7d8f6a9b3596530/fields.ts).
 
 ## Required Fields
